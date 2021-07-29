@@ -1,0 +1,38 @@
+.main {
+    left: 5vw;
+    top: 2vw;
+}
+.main,
+.cim,
+.cimsor {
+    position: relative;
+    width: 81.40625vw;
+}
+
+.cim {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vw;
+    color: #ffffff;
+    top: 0.7vw;
+    width: 50vw;
+    left: 7vw;
+}
+
+.placeholder {
+    background-color: red;
+    height: 20vw;
+    width: 20vw;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+    display: inline-block;
+    margin-top: 2vw;
+}
+
+.cimsor {
+    background-color: #55ae3a;
+    height: 3.5vw;
+    top: 0.53vw;
+}
+
