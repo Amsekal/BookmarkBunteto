@@ -1,38 +1,82 @@
-.main {
-    left: 5vw;
-    top: 2vw;
+@media (max-width: 1024px) {
+    .placeholder {
+        background-color: red;
+        height: 80vw;
+        width: 80vw;
+        margin: auto;
+        margin-top: 5vw;
+    }
+    .main,
+    .cimsor {
+        width: 100%;
+    }
+    .cimsor {
+        height: 10vw;
+        top: 2vw;
+        position: relative;
+        left: 0vw;
+        right: 0vw;
+    }
+
+    .cim {
+        font-size: 8vw;
+        margin: auto;
+        width: 80vw;
+    }
+
+    img {
+        margin-left: 7vw;
+    }
 }
-.main,
-.cim,
-.cimsor {
-    position: relative;
-    width: 81.40625vw;
+@media (min-width: 1024px) {
+    .main {
+        left: 5vw;
+        top: 2vw;
+    }
+    .main,
+    .cim,
+    .cimsor {
+        position: relative;
+        width: 81.40625vw;
+    }
+
+    .placeholder {
+        background-color: red;
+        height: 20vw;
+        width: 20vw;
+        margin-right: 1vw;
+        margin-top: 0.5vw;
+        display: inline-block;
+        margin-top: 2vw;
+    }
+
+    .cimsor {
+        height: 3.5vw;
+        top: 0.53vw;
+    }
+
+    .cim {
+        font-size: 2vw;
+        top: 0.7vw;
+        width: 50vw;
+        left: 7vw;
+    }
+
+
 }
 
 .cim {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 2vw;
     color: #ffffff;
-    top: 0.7vw;
-    width: 50vw;
-    left: 7vw;
-}
-
-.placeholder {
-    background-color: red;
-    height: 20vw;
-    width: 20vw;
-    margin-right: 1vw;
-    margin-top: 0.5vw;
-    display: inline-block;
-    margin-top: 2vw;
 }
 
 .cimsor {
     background-color: #55ae3a;
-    height: 3.5vw;
-    top: 0.53vw;
 }
-
+img {
+    width: 81.5vw;
+    height: 13vw;
+    margin-top: 5vw;
+}
